@@ -14,7 +14,7 @@ const getApi = async () => {
 //   const url = `https://www.metaweather.com/api/location/search/?query=${search}`;
   const url = "https://www.metaweather.com/api/location/search/?query=san";
   
-  const response = await fetch(url,options)
+  const response = await fetch(url)
   console.log(response);
   const data = await response.json();
 
